@@ -1,0 +1,10 @@
+#Factorial program using function
+def factorial_of_num(a):
+    fact = 1
+    for i in range(1, a + 1):
+        fact = fact * i
+    print("Factorial of:",fact)
+
+fact = factorial_of_num(5)
+
+
